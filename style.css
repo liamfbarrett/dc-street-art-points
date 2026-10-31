@@ -1008,3 +1008,10 @@ html, body {
   }
 }
 
+
+/* Remove browser focus outline from street-art markers */
+.leaflet-marker-icon.street-art-icon:focus,
+.leaflet-marker-icon.street-art-icon:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
