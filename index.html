@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An interactive map documenting political street art in Washington, D.C., June–August 2026.">
+    <title>Political Street Art in Washington, D.C. | Liam Barrett</title>
+    <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'>
+<link rel='stylesheet' href='https://unpkg.com/leaflet.fullscreen@3.0.0/Control.FullScreen.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div id="map">
+
+  <div id="map-title">
+    <div class="map-title-main">
+      Political Street Art in Washington, D.C.
+    </div>
+
+    <div class="map-title-subtitle">
+      June-August 2026
+      <span class="map-title-credit"> / Liam Barrett</span>
+    </div>
+  </div>
+
+
+  <div id="street-art-panel" class="street-art-panel">
+
+    <button
+      id="street-art-panel-close"
+      class="street-art-panel-close"
+    >
+      ×
+    </button>
+
+    <div id="street-art-panel-content"></div>
+
+  </div>
+
+
+  <div id="photo-gallery" class="photo-gallery">
+
+  <div class="photo-gallery-content">
+
+    <button
+      id="photo-gallery-close"
+      class="photo-gallery-close"
+      type="button"
+      aria-label="Close photos"
+    >
+      ×
+    </button>
+
+
+    <button
+      id="photo-gallery-previous"
+      class="photo-gallery-nav photo-gallery-previous"
+      type="button"
+      aria-label="Previous photo"
+    >
+      ‹
+    </button>
+
+
+    <div class="photo-gallery-image-area">
+
+      <img
+        id="photo-gallery-image"
+        class="photo-gallery-image"
+        src="./Photo_1.jpg"
+        alt="Featured photograph"
+      >
+
+    </div>
+
+
+    <button
+      id="photo-gallery-next"
+      class="photo-gallery-nav photo-gallery-next"
+      type="button"
+      aria-label="Next photo"
+    >
+      ›
+    </button>
+
+
+    <div class="photo-gallery-counter">
+      1 / 20
+    </div>
+
+
+    <div class="photo-gallery-info">
+
+  <div
+    id="photo-gallery-info-title"
+    class="photo-gallery-info-title"
+  ></div>
+
+  <div
+    id="photo-gallery-info-meta"
+    class="photo-gallery-info-meta"
+  ></div>
+
+  <div
+    id="photo-gallery-info-location"
+    class="photo-gallery-info-location"
+  ></div>
+
+  <div
+    id="photo-gallery-info-keywords"
+    class="photo-gallery-info-keywords"
+  ></div>
+
+</div>
+
+  </div>
+
+</div>
+
+</div>
+    <script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'></script>
+<script src='https://unpkg.com/leaflet.fullscreen/dist/Control.FullScreen.umd.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
