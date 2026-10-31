@@ -2384,7 +2384,8 @@ function closeStreetArtPanel() {
 
 
     if (element) {
-
+      element.blur();
+      
       element.classList.remove(
         'street-art-selected'
       );
