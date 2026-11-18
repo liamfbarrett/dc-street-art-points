@@ -1035,3 +1035,29 @@ html, body {
   }
 
 }
+
+
+@media (max-width: 700px) {
+
+  /* Stack results and Reset filters vertically */
+  .street-art-search-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+
+  /* Right-align the results count */
+  .street-art-result-count {
+    width: auto;
+    text-align: right;
+    margin: 0;
+  }
+
+  /* Keep Reset filters directly underneath */
+  .street-art-reset {
+    align-self: flex-end;
+  }
+
+}
