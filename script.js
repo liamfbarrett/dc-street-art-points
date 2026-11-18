@@ -2569,7 +2569,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_1.jpg',
-    name: 'Fuck Trump',
+    name: 'F--k Trump',
     type: 'Graffiti',
     date: 'August 12, 2026',
     latitude: '38.917612',
@@ -2589,7 +2589,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_3.jpg',
-    name: 'Marsha Law drag queen',
+    name: 'Marsha Law',
     type: 'Poster/Sticker',
     date: 'July 31, 2026',
     latitude: '38.909381',
@@ -2599,7 +2599,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_4.jpg',
-    name: 'McPherson mural - LIVE',
+    name: 'McPherson mural',
     type: 'Mural',
     date: 'June 19, 2026',
     latitude: '38.902083',
@@ -2619,7 +2619,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_6.jpg',
-    name: 'Dick tater',
+    name: 'D--k tater',
     type: 'Poster/Sticker',
     date: 'August 12, 2026',
     latitude: '38.926719',
@@ -2639,7 +2639,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_8.jpg',
-    name: 'Mitch McConnell Missing',
+    name: 'Mitch McConnell missing',
     type: 'Poster/Sticker',
     date: 'August 17, 2026',
     latitude: '38.897359',
@@ -2679,7 +2679,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_12.jpg',
-    name: 'Fuck ICE',
+    name: 'F--k ICE',
     type: 'Graffiti',
     date: 'August 12, 2026',
     latitude: '38.917107',
@@ -2689,7 +2689,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_13.jpg',
-    name: 'National Guard protest wheatpaste - LIVE',
+    name: 'National Guard protest',
     type: 'Poster/Sticker',
     date: 'August 14, 2026',
     latitude: '38.936531',
@@ -2709,7 +2709,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_15.jpg',
-    name: 'Fuck ICE clowns',
+    name: 'F--k ICE clowns',
     type: 'Poster/Sticker',
     date: 'August 3, 2026',
     latitude: '38.920086',
@@ -2719,7 +2719,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_16.jpg',
-    name: 'UglyFuck.org',
+    name: 'UglyF--k.org',
     type: 'Poster/Sticker',
     date: 'August 12, 2026',
     latitude: '38.926437',
@@ -2739,7 +2739,7 @@ const photoGalleryData = [
 
   {
     image: 'Photo_18.jpg',
-    name: 'Kristi Noem demon poster',
+    name: 'Kristi Noem demon',
     type: 'Poster/Sticker',
     date: 'August 21, 2026',
     latitude: '38.885637',
