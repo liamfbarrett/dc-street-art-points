@@ -470,7 +470,7 @@ html, body {
      ---------------------------------------------------------- */
 
   .leaflet-top.leaflet-right .street-art-search-control {
-    margin-top: 105px;
+    margin-top: 55px;
     margin-right: 10px;
   }
 
@@ -1014,4 +1014,24 @@ html, body {
 .leaflet-marker-icon.street-art-icon:focus-visible {
   outline: none !important;
   box-shadow: none !important;
+}
+
+/* MOBILE LEGEND AND CONTROL ADJUSTMENTS */
+@media (max-width: 700px) {
+
+  /* Hide the Ward legend */
+  .leaflet-bottom.leaflet-right .map-legend {
+    display: none !important;
+  }
+
+  /* Move Street Art Type legend to bottom-right */
+  .leaflet-top.leaflet-left .street-art-legend {
+    position: fixed !important;
+    left: auto !important;
+    right: 10px !important;
+    top: auto !important;
+    bottom: 10px !important;
+    margin: 0 !important;
+  }
+
 }
